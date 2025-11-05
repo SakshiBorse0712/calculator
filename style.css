@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.cal-box{
+    width: 450px;
+    background-color: #c4c4c0;
+    border-radius: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+.display{
+    height: 100px;
+    background-color:  #f7f7f0;
+    margin: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#display-box{
+    height: 100px;
+    width: 425px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.input-digits{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    background-color: #f7f7f0;
+    border-radius: 20px;
+}
